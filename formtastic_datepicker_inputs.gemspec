@@ -34,6 +34,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<rspec_tag_matchers>, [">= 1.0.0"])
   s.add_development_dependency(%q<hpricot>, ["~> 0.8.3"])
 
-  s.add_dependency(%q<formtastic>, [">= 2.0.0"])
+  s.add_dependency(%q<formtastic>, ["< 2.0.0"])
 end
 
